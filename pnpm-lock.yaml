@@ -27,8 +27,8 @@ dependencies:
     specifier: ^5.4.3
     version: 5.4.3
   vite:
-    specifier: ^5.2.7
-    version: 5.2.7(@types/node@20.12.2)
+    specifier: ^5.2.13
+    version: 5.2.13(@types/node@20.12.2)
 
 devDependencies:
   '@iconify-json/mdi':
@@ -57,7 +57,7 @@ devDependencies:
     version: 2.13.0
   unocss:
     specifier: ^0.58.8
-    version: 0.58.8(postcss@8.4.38)(vite@5.2.7)
+    version: 0.58.8(postcss@8.4.38)(vite@5.2.13)
 
 packages:
 
@@ -1227,7 +1227,7 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
-  /@unocss/astro@0.58.8(vite@5.2.7):
+  /@unocss/astro@0.58.8(vite@5.2.13):
     resolution: {integrity: sha512-pAjsKuVg41dXNPWpFKx/SDxz198Miu/hqAL4lMkE2ITY+nFgqt9SH1lGS9P+VzElrHZ+Uqwmmtw8SjaT2EfCMA==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -1237,8 +1237,8 @@ packages:
     dependencies:
       '@unocss/core': 0.58.8
       '@unocss/reset': 0.58.8
-      '@unocss/vite': 0.58.8(vite@5.2.7)
-      vite: 5.2.7(@types/node@20.12.2)
+      '@unocss/vite': 0.58.8(vite@5.2.13)
+      vite: 5.2.13(@types/node@20.12.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1421,7 +1421,7 @@ packages:
       '@unocss/core': 0.58.8
     dev: true
 
-  /@unocss/vite@0.58.8(vite@5.2.7):
+  /@unocss/vite@0.58.8(vite@5.2.13):
     resolution: {integrity: sha512-Eh0cG1I/BivvhUPdFxPi/z7Q+LMDnjHgL/dIE6/tmJK9rerdGeOBCAXxEetZfvBrOhWVnsOW/ydesyAhkzRg3w==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0 || ^4.0.0 || ^5.0.0-0
@@ -1436,7 +1436,7 @@ packages:
       chokidar: 3.6.0
       fast-glob: 3.3.2
       magic-string: 0.30.8
-      vite: 5.2.7(@types/node@20.12.2)
+      vite: 5.2.13(@types/node@20.12.2)
     transitivePeerDependencies:
       - rollup
     dev: true
@@ -1670,8 +1670,8 @@ packages:
       tsconfck: 3.0.3(typescript@5.4.3)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.7(@types/node@20.12.2)
-      vitefu: 0.2.5(vite@5.2.7)
+      vite: 5.2.13(@types/node@20.12.2)
+      vitefu: 0.2.5(vite@5.2.13)
       which-pm: 2.1.1
       yargs-parser: 21.1.1
       zod: 3.22.4
@@ -4362,7 +4362,7 @@ packages:
       unist-util-visit-parents: 6.0.1
     dev: false
 
-  /unocss@0.58.8(postcss@8.4.38)(vite@5.2.7):
+  /unocss@0.58.8(postcss@8.4.38)(vite@5.2.13):
     resolution: {integrity: sha512-oMWCEgwvxJcF1BZxxkbTyTd83xtArsza3DModUrJrPndnpOVVz9fZ5g6wcrDbVpv6+cvRrgMCeKMlWKt9WIIsA==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -4374,7 +4374,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      '@unocss/astro': 0.58.8(vite@5.2.7)
+      '@unocss/astro': 0.58.8(vite@5.2.13)
       '@unocss/cli': 0.58.8
       '@unocss/core': 0.58.8
       '@unocss/extractor-arbitrary-variants': 0.58.8
@@ -4393,8 +4393,8 @@ packages:
       '@unocss/transformer-compile-class': 0.58.8
       '@unocss/transformer-directives': 0.58.8
       '@unocss/transformer-variant-group': 0.58.8
-      '@unocss/vite': 0.58.8(vite@5.2.7)
-      vite: 5.2.7(@types/node@20.12.2)
+      '@unocss/vite': 0.58.8(vite@5.2.13)
+      vite: 5.2.13(@types/node@20.12.2)
     transitivePeerDependencies:
       - postcss
       - rollup
@@ -4460,8 +4460,8 @@ packages:
       vfile-message: 4.0.2
     dev: false
 
-  /vite@5.2.7(@types/node@20.12.2):
-    resolution: {integrity: sha512-k14PWOKLI6pMaSzAuGtT+Cf0YmIx12z9YGon39onaJNy8DLBfBJrzg9FQEmkAM5lpHBZs9wksWAsyF/HkpEwJA==}
+  /vite@5.2.13(@types/node@20.12.2):
+    resolution: {integrity: sha512-SSq1noJfY9pR3I1TUENL3rQYDQCFqgD+lM6fTRAM8Nv6Lsg5hDLaXkjETVeBt+7vZBCMoibD+6IWnT2mJ+Zb/A==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4495,7 +4495,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitefu@0.2.5(vite@5.2.7):
+  /vitefu@0.2.5(vite@5.2.13):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -4503,7 +4503,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.7(@types/node@20.12.2)
+      vite: 5.2.13(@types/node@20.12.2)
     dev: false
 
   /volar-service-css@0.0.34(@volar/language-service@2.1.6):
